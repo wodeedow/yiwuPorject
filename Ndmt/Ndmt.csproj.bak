@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{68C66944-03B8-4785-930E-EF177FBB395E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ndmt</RootNamespace>
+    <AssemblyName>Ndmt</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\bbclass_browser_find.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Dxper.LocalizationCHS.Win.v13.1.5">
+      <HintPath>References\Dxper.LocalizationCHS.Win.v13.1.5.dll</HintPath>
+    </Reference>
+    <Reference Include="License">
+      <HintPath>References\License.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deprecated\frmAuthenticationFailed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deprecated\frmAuthenticationFailed.Designer.cs">
+      <DependentUpon>frmAuthenticationFailed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deprecated\frmConfirmUpgrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deprecated\frmConfirmUpgrade.Designer.cs">
+      <DependentUpon>frmConfirmUpgrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDevice.Designer.cs">
+      <DependentUpon>frmDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKnitterManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKnitterManagement.Designer.cs">
+      <DependentUpon>frmKnitterManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPreference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPreference.Designer.cs">
+      <DependentUpon>frmPreference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Events\FriendlyNameChangedEventArgs.cs" />
+    <Compile Include="Model\ExcelHelper.cs" />
+    <Compile Include="Model\Exception\ExceptionSource.cs" />
+    <Compile Include="Model\Exception\ShiftProceedingException.cs" />
+    <Compile Include="Model\Exception\TransportException.cs" />
+    <Compile Include="Model\IKnitterState.cs" />
+    <Compile Include="Model\KnitterBootingState.cs" />
+    <Compile Include="Model\KnitterCleaningUpState.cs" />
+    <Compile Include="Model\KnitterEntity.Action.cs" />
+    <Compile Include="Model\KnitterEntity.cs" />
+    <Compile Include="Model\KnitterEntity.Properties.cs" />
+    <Compile Include="Model\KnitterFlushingState.cs" />
+    <Compile Include="Model\KnitterIdleState.cs" />
+    <Compile Include="Model\KnitterLoadingState.cs" />
+    <Compile Include="Model\KnitterManufacturingState.cs" />
+    <Compile Include="Model\LogHelper.cs" />
+    <Compile Include="Model\ShiftEntity.cs" />
+    <Compile Include="Model\UPnP\JC5NetworkDriver.cs" />
+    <Compile Include="Model\UPnP\KnitterControl1.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Deprecated\frmConfirmRecovery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deprecated\frmConfirmRecovery.Designer.cs">
+      <DependentUpon>frmConfirmRecovery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deprecated\frmConfirmReset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deprecated\frmConfirmReset.Designer.cs">
+      <DependentUpon>frmConfirmReset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ssLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssLoginForm.Designer.cs">
+      <DependentUpon>ssLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ssLoginImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssLoginImage.Designer.cs">
+      <DependentUpon>ssLoginImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\DESEncrypt.cs" />
+    <Compile Include="Utils\FixedLengthQueue.cs" />
+    <Compile Include="Utils\LicenseMonitor.cs" />
+    <Compile Include="Utils\NetworkUtils.cs" />
+    <Compile Include="Utils\SearchableBindingList.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deprecated\frmAuthenticationFailed.resx">
+      <DependentUpon>frmAuthenticationFailed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deprecated\frmConfirmUpgrade.resx">
+      <DependentUpon>frmConfirmUpgrade.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDevice.resx">
+      <DependentUpon>frmDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKnitterManagement.resx">
+      <DependentUpon>frmKnitterManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPreference.resx">
+      <DependentUpon>frmPreference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Deprecated\frmConfirmRecovery.resx">
+      <DependentUpon>frmConfirmRecovery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deprecated\frmConfirmReset.resx">
+      <DependentUpon>frmConfirmReset.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssLoginForm.resx">
+      <DependentUpon>ssLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssLoginImage.resx">
+      <DependentUpon>ssLoginImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\SampleShift.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JC5%28small%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JC5dead%28small%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\log4net\log4net.csproj">
+      <Project>{05b2503b-997f-483d-89bc-f810e67ccc18}</Project>
+      <Name>log4net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManagedUPnP\ManagedUPnP.csproj">
+      <Project>{5956dabc-c1ab-498e-b8c8-f62ed6dcd30c}</Project>
+      <Name>ManagedUPnP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StarksoftFTP\Starksoft.Net.Ftp.csproj">
+      <Project>{5f228fcd-54f1-491d-93ce-3d768655fadc}</Project>
+      <Name>Starksoft.Net.Ftp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\bbclass_browser_find.ico" />
+    <Content Include="Resources\LogInfo.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Reactor_Deploy="0" Reactor_Output="&lt;AssemblyLocation&gt;\&lt;AssemblyFileName&gt;" Reactor_Configuration="Release" Reactor_Project="" Reactor_Commands="" Reactor_Enabled="0" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

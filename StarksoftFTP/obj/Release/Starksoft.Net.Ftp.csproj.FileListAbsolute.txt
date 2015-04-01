@@ -1,0 +1,9 @@
+F:\yiwu项目\StarksoftFTP\bin\Release\Starksoft.Net.Ftp.XML
+F:\yiwu项目\StarksoftFTP\bin\Release\Starksoft.Net.Ftp.dll
+F:\yiwu项目\StarksoftFTP\bin\Release\Starksoft.Net.Ftp.pdb
+F:\yiwu项目\StarksoftFTP\bin\Release\Starksoft.Net.Proxy.dll
+F:\yiwu项目\StarksoftFTP\bin\Release\Starksoft.Net.Proxy.pdb
+F:\yiwu项目\StarksoftFTP\bin\Release\Starksoft.Net.Proxy.xml
+F:\yiwu项目\StarksoftFTP\obj\Release\Starksoft.Net.Ftp.csprojResolveAssemblyReference.cache
+F:\yiwu项目\StarksoftFTP\obj\Release\Starksoft.Net.Ftp.dll
+F:\yiwu项目\StarksoftFTP\obj\Release\Starksoft.Net.Ftp.pdb

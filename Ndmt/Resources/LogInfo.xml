@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <Debug>
+    <string name ="BindDeviceDatasourceFromObject">设备数据源绑定完成</string>
+    <string name ="CreateDeviceShortcutWithKnitterEntityBond">创建设备快捷方式</string>
+    <string name ="CreateShiftIndexGroupedByFriendlyName">创建订单索引</string>
+    <string name ="BindComponentToConsoleDatasource">绑定日志到rtbConsole控件</string>
+    <string name ="BindComponentToLogDatasource">绑定日志到rtbLog控件</string>
+    <string name ="StartLog4NetListening">开启日志监听</string>
+    <string name ="RemoveDeviceShortcutFromUI">设备 #{0} 快捷方式从界面删除</string>
+    <string name ="DeviceShortcutButtonClicked">设备 #{0} 快捷方式Click事件触发</string>
+    <string name ="EnterDeviceShortcutEvent">设备 #{0} 快捷方式DeviceShortcutClickEvent触发，将打开对话框</string>
+    <string name ="SampleShiftReloadFinished">测试订单数据重载成功</string>
+    <string name ="DeviceShortcutButtonCreated">设备 #{0} 生成快捷方式</string>
+    
+    <string name ="MountExStorage">设备 #{0} 挂载USB存储成功</string>
+    <string name ="UnmountExStorage">设备 #{0} 卸载USB存储成功</string>
+    <string name ="LoadCurrentShift">设备 #{0} 装载成功装载最新订单</string>
+    <string name ="FlushPatternEP">设备 #{0} 清除样式文件</string>
+    <string name ="LoadPatternEP">设备 #{0} 上传样式文件</string>
+
+    <string name ="NotifyKnitterOnline">设备 #{0} UPnP服务上线</string>
+    <string name ="NotifyKnitterOffline">设备 #{0} UPnP服务下线</string>
+
+    <string name ="CancelTokenRecieved">接收到停止请求, 来源:[{0}]</string>
+    <string name ="TestString">日志模块正常</string>
+    <string name ="CustomDebugString">{0}</string>
+
+    <string name ="TransportException">异常:{0}, 来源:[{1}],错误代码:{2:x}</string>
+    <string name ="ShiftProceedingException">异常[{0}], 来源:[{1}]</string>
+  </Debug>
+  <Info>
+    <string name ="StartUPnPListening">正在搜索设备...</string>
+    <string name ="UPnPDeviceOnline">设备 #{0} 上线</string>
+    <string name ="UPnPDeviceOffline">设备 #{0} 下线</string>
+    <string name ="RefillShiftDataset">刷新排班表成功</string>
+    <string name ="ChangeFriendlyName">机台#{0} 变更为 {1}</string>
+    <string name ="SetFriendlyName">正在为设备 #{0} 更改机台号...</string>
+    <string name ="Restart">设备 #{0} 重启中...</string>
+    <string name ="Reset">设备 #{0} 重置中...</string>
+    <string name ="NotifyFriendlyNameChanged">机台#{0} 变更为 {1}</string>
+    <string name= "ResetToIdle">重置机台 #{0} 空闲状态(IDLE)</string>
+    <string name ="LogEventTime">设备 #{0} {1}计时</string>
+    <string name ="NotifyOrderFinished">开始于[{0}]的订单[{1}, {2}]，由#{3}机台完成</string>
+  </Info>
+  <Warn>
+    <string name ="RestartMountInSeconds">设备连接失败({0}/10)，等待{1}毫秒后重新尝试...</string>
+  </Warn>
+  <Error>
+    <string name ="PatternDocumentNotFound">由机台#{0}成产的订单[{1},{2}]所需的样式文件{3}未找到</string>
+    <string name ="ShiftOfDeviceNotFound">未找到由机台#{0}需要生产的订单，请检查机台号是否设置正确，请检查订单是否安排</string>
+    <string name ="ExStorageMountError">与机台#{0}连接出错, {1}</string>
+    <string name ="DatabaseLinkError">与数据库连接发生错误</string>
+    <string name ="DefaultTransportError">与机台#{0}的网络发生错误，请检查</string>
+    <string name ="UPnPException">UPnP执行异常，错误代码[{0}]</string>
+    <string name ="ExcelEnvError">Excel编程环境出错</string>
+    <string name ="LogHelperInitException">{0}</string>
+    <string name ="GeneralException">{0}</string>
+    
+  </Error>
+  <Fatal>
+
+  </Fatal>
+</resources>

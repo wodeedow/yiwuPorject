@@ -1,0 +1,6 @@
+F:\yiwu项目\log4net\bin\Release\log4net.dll
+F:\yiwu项目\log4net\bin\Release\log4net.pdb
+F:\yiwu项目\log4net\bin\Release\log4net.xml
+F:\yiwu项目\log4net\obj\Release\log4net.csprojResolveAssemblyReference.cache
+F:\yiwu项目\log4net\obj\Release\log4net.dll
+F:\yiwu项目\log4net\obj\Release\log4net.pdb
