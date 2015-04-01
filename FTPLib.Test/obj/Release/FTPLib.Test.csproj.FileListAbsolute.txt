@@ -1,0 +1,14 @@
+F:\yiwu项目\FTPLib.Test\bin\Release\FTPLib.Test.exe
+F:\yiwu项目\FTPLib.Test\bin\Release\FTPLib.Test.pdb
+F:\yiwu项目\FTPLib.Test\bin\Release\Starksoft.Net.Ftp.dll
+F:\yiwu项目\FTPLib.Test\bin\Release\Starksoft.Net.Proxy.dll
+F:\yiwu项目\FTPLib.Test\bin\Release\Starksoft.Net.Ftp.pdb
+F:\yiwu项目\FTPLib.Test\bin\Release\Starksoft.Net.Ftp.xml
+F:\yiwu项目\FTPLib.Test\bin\Release\Starksoft.Net.Proxy.pdb
+F:\yiwu项目\FTPLib.Test\bin\Release\Starksoft.Net.Proxy.xml
+F:\yiwu项目\FTPLib.Test\obj\Release\FTPLib.Test.csprojResolveAssemblyReference.cache
+F:\yiwu项目\FTPLib.Test\obj\Release\FTPLib.Test.frmFTP.resources
+F:\yiwu项目\FTPLib.Test\obj\Release\FTPLib.Test.Properties.Resources.resources
+F:\yiwu项目\FTPLib.Test\obj\Release\FTPLib.Test.csproj.GenerateResource.Cache
+F:\yiwu项目\FTPLib.Test\obj\Release\FTPLib.Test.exe
+F:\yiwu项目\FTPLib.Test\obj\Release\FTPLib.Test.pdb

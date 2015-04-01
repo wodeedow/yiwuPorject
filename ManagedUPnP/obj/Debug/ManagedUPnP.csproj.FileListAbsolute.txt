@@ -1,0 +1,8 @@
+F:\yiwu项目\ManagedUPnP\bin\Debug\ManagedUPnP.XML
+F:\yiwu项目\ManagedUPnP\bin\Debug\ManagedUPnP.dll
+F:\yiwu项目\ManagedUPnP\bin\Debug\ManagedUPnP.pdb
+F:\yiwu项目\ManagedUPnP\obj\Debug\ManagedUPnP.csprojResolveAssemblyReference.cache
+F:\yiwu项目\ManagedUPnP\obj\Debug\Interop.UPNPLib.dll
+F:\yiwu项目\ManagedUPnP\obj\Debug\ManagedUPnP.csproj.ResolveComReference.cache
+F:\yiwu项目\ManagedUPnP\obj\Debug\ManagedUPnP.dll
+F:\yiwu项目\ManagedUPnP\obj\Debug\ManagedUPnP.pdb

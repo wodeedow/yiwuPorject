@@ -1,0 +1,14 @@
+F:\项目备份\FTPLib.Test\bin\Debug\FTPLib.Test.exe
+F:\项目备份\FTPLib.Test\bin\Debug\FTPLib.Test.pdb
+F:\项目备份\FTPLib.Test\bin\Debug\Starksoft.Net.Ftp.dll
+F:\项目备份\FTPLib.Test\bin\Debug\Starksoft.Net.Proxy.dll
+F:\项目备份\FTPLib.Test\bin\Debug\Starksoft.Net.Ftp.pdb
+F:\项目备份\FTPLib.Test\bin\Debug\Starksoft.Net.Ftp.xml
+F:\项目备份\FTPLib.Test\bin\Debug\Starksoft.Net.Proxy.pdb
+F:\项目备份\FTPLib.Test\bin\Debug\Starksoft.Net.Proxy.xml
+F:\项目备份\FTPLib.Test\obj\Debug\FTPLib.Test.csprojResolveAssemblyReference.cache
+F:\项目备份\FTPLib.Test\obj\Debug\FTPLib.Test.frmFTP.resources
+F:\项目备份\FTPLib.Test\obj\Debug\FTPLib.Test.Properties.Resources.resources
+F:\项目备份\FTPLib.Test\obj\Debug\FTPLib.Test.csproj.GenerateResource.Cache
+F:\项目备份\FTPLib.Test\obj\Debug\FTPLib.Test.exe
+F:\项目备份\FTPLib.Test\obj\Debug\FTPLib.Test.pdb
