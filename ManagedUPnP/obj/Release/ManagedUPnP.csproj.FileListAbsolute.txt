@@ -1,8 +1,0 @@
-F:\yiwu项目\ManagedUPnP\bin\Release\ManagedUPnP.XML
-F:\yiwu项目\ManagedUPnP\bin\Release\ManagedUPnP.dll
-F:\yiwu项目\ManagedUPnP\bin\Release\ManagedUPnP.pdb
-F:\yiwu项目\ManagedUPnP\obj\Release\Interop.UPNPLib.dll
-F:\yiwu项目\ManagedUPnP\obj\Release\ManagedUPnP.csproj.ResolveComReference.cache
-F:\yiwu项目\ManagedUPnP\obj\Release\ManagedUPnP.dll
-F:\yiwu项目\ManagedUPnP\obj\Release\ManagedUPnP.pdb
-F:\yiwu项目\ManagedUPnP\obj\Release\ManagedUPnP.csprojResolveAssemblyReference.cache
